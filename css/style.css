@@ -969,6 +969,9 @@ footer .secondCol .blogDtls {
   .plastore {
     text-align: center;
     margin-bottom: 20px; }
+    .plastore img {
+      width: 100%;
+      display: inline-block; }
 
   .bottomFooter .socialMedia {
     justify-content: center; } }
@@ -993,5 +996,14 @@ footer .secondCol .blogDtls {
         position: absolute;
         bottom: 0;
         left: 0; } }
+@media only screen and (max-width: 375px) {
+  .middleNav .calcForRight {
+    flex: 0 0 calc(100% - 150px);
+    width: calc(100% - 150px);
+    padding: 0 5px; }
+  .middleNav .calcForLeft {
+    flex: 0 0 150px;
+    width: 150pxpx;
+    padding: 0 5px 0 15px; } }
 
 /*# sourceMappingURL=style.css.map */

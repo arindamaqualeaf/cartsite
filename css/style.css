@@ -839,7 +839,7 @@ footer .secondCol .blogDtls {
   justify-content: flex-end; }
   .bottomFooter .socialMedia li {
     margin-right: 10px;
-    padding: 3px 9px;
+    padding: 6px 10px;
     width: 33px;
     height: 33px;
     -ms-flex: 0 0 auto;
@@ -863,6 +863,12 @@ footer .secondCol .blogDtls {
 
 .productSection-1 {
   padding: 40px 0; }
+
+.productcol .card-header {
+  font-size: 18px; }
+  .productcol .card-header h5 a {
+    color: #666;
+    font-weight: 700; }
 
 /*media css for project*/
 @media only screen and (max-width: 1199px) {
@@ -1042,6 +1048,11 @@ footer .secondCol .blogDtls {
   .tab-pane {
     display: block !important;
     opacity: 1; }
+
+  .productcol .card-header {
+    font-size: 16px; }
+    .productcol .card-header h5 a {
+      color: #666; }
 
   .bannerSection .banenrTxt h1 {
     font-size: 24px;

@@ -281,6 +281,14 @@ header {
       .bottomNav nav ul li:last-child {
         margin-right: 0px; }
 
+.bannerSection .banner .item {
+  height: 100vh;
+  background-position: right -170px center !important;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat !important; }
 .bannerSection .banenrTxt {
   position: absolute;
   top: 50%;
@@ -954,9 +962,6 @@ footer .secondCol .blogDtls {
     .bannerSection .banenrTxt h1 {
       font-size: 40px; }
 
-  .banner .item {
-    height: 250px; }
-
   .serviceSection .customCol-4 {
     max-width: 50%;
     flex: 0 0 50%;
@@ -996,6 +1001,25 @@ footer .secondCol .blogDtls {
         position: absolute;
         bottom: 0;
         left: 0; } }
+.nav-tabs {
+  display: none; }
+
+@media (min-width: 768px) {
+  .nav-tabs {
+    display: flex; }
+
+  .card {
+    border: none; }
+
+  .card .card-header {
+    display: none; }
+
+  .card .collapse {
+    display: block; } }
+@media (max-width: 767px) {
+  .tab-pane {
+    display: block !important;
+    opacity: 1; } }
 @media only screen and (max-width: 375px) {
   .middleNav .calcForRight {
     flex: 0 0 calc(100% - 150px);

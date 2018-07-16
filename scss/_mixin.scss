@@ -1,0 +1,50 @@
+@mixin diferentradius($topL, $topR, $bottomR, $bottomL) {
+    border-radius: $topL $topR $bottomR $bottomL;
+    -moz-border-radius: $topL $topR $bottomR $bottomL;
+    -webkit-border-radius: $topL $topR $bottomR $bottomL;
+    -o-border-radius: $topL $topR $bottomR $bottomL;
+}
+@mixin commonRadius($red) {
+    border-radius: $red;
+    -moz-border-radius: $red;
+    -webkit-border-radius: $red;
+    -o-border-radius: $red;
+}
+@mixin button($width, $border, $rad, $shadow, $color, $background){
+    width: $width;
+    border-radius: $rad;
+    -moz-border-radius: $rad;
+    -webkit-border-radius: $rad;
+    -o-border-radius: $rad;
+    border: $border;
+    box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    -webkit-box-shadow: $shadow;
+    -o-box-shadow: $shadow;  
+    color: $color;  
+    background: $background;
+}
+@mixin  txtShadow($shadow) {
+    -moz-text-shadow: $shadow;
+    -webkit-text-shadow: $shadow;
+    text-shadow: $shadow;
+}
+@mixin  boxShadow($bShadow) {
+    -moz-box-shadow: $bShadow;
+    -webkit-box-shadow: $bShadow;
+    box-shadow: $bShadow;
+}
+@mixin bgCover($cover){
+    background-size: $cover;
+    -moz-background-size: $cover;
+    -webkit-background-size: $cover;
+    -o-background-size: $cover;
+
+}
+@mixin eraseInOut ($trnstime){
+    -webkit-transition: all $trnstime ease-in-out;
+    -moz-transition: all $trnstime ease-in-out;
+    -ms-transition: all $trnstime ease-in-out;
+    -o-transition: all $trnstime ease-in-out;
+    transition: all $trnstime ease-in-out;
+}

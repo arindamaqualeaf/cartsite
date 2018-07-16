@@ -1,0 +1,251 @@
+@media only screen and (max-width: 2560px) {}
+
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1660px) {}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1366px) {}
+
+@media only screen and (max-width: 1350px) {}
+
+@media only screen and (max-width: 1280px) {}
+
+//media for col-md container
+@media only screen and (max-width: 1199px) {
+    .text_part {
+        display: none;
+    }
+    .middleNav .freeCallus .imgSect,
+    .middleNav .cart .imgSect {
+        width: 26px;
+        flex: 0 0 26px;
+    }
+    .middleNav .connecSec {
+        width: 95px;
+        flex: 0 0 95px;
+	}
+	.middleNav .searchSec {
+		width: calc(100% - 95px);
+		flex: 0 0 calc(100% - 95px);
+		padding: 0 15px;
+	}
+}
+
+@media only screen and (max-width: 1135px) {}
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 1000px) {
+	
+}
+
+//media for col-md container
+@media only screen and (max-width: 991px) {
+	.productcol {
+		margin-top: 30px;
+	}
+    .hedaddresss {
+        display: none !important;
+    }
+    .searchSec {
+        display: none;
+    }
+    .catagoryMedia {
+        display: none;
+	}
+	.freeCallus {
+		display: none !important;
+	}
+	.middleNav .connecSec {
+		width: 36px;
+		flex: 0 0 36px;
+		margin-left: auto;
+	}
+	.extrabtn{
+		display: block !important;
+		.user{
+			color: $maincolor;
+			margin: 0 10px;
+		}
+	}
+	.bottomNav{
+		//width: 300px;
+		//position: absolute;
+		//top: 56px;
+		//right: 0;
+		height: 0px;
+		nav {
+			position: fixed;
+			top: 56px;
+			right: -200px;
+			width: 300px;
+			z-index: 58;
+			background: #fff;
+			ul{
+				li{
+					flex: 0 0 100%;
+					margin-right: 0px;
+					a{
+						color: #666;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.sticky{
+		display:block;
+	}
+	header{
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 64;
+		width: 100%;
+	}
+	.myAccount{
+		position: absolute;
+		top: 0;
+	}
+	nav.navMenu{
+		visibility: hidden;
+		opacity: 0;
+	}
+	nav.navMenu.show{
+		visibility: visible;
+		opacity: 1;
+		right: 0;
+		
+	 }
+	.topNav{
+		display: none;
+	}
+	.hambargaricon{
+		border: none;
+		padding: 6px 10px;
+		//margin: 0 10px;
+		background: rgba(0, 0, 0, 0);
+		color: $maincolor;
+
+	}
+	.middleNav .cart{
+		margin-top: 8px;
+	}
+	.bannerSection {
+		.banenrTxt{
+			left: 50%;
+			transform: translate(-50%, -50%);
+			h4{
+				font-size: 26px;
+			}
+			h1{
+				font-size: 40px;
+			}
+		}
+	}
+	.banner{
+		.item{
+			height: 250px;
+		}
+	}
+	.serviceSection .customCol-4{
+		max-width: 50%;
+		flex: 0 0 50%;
+		margin-bottom: 20px;
+		padding: 0 15px;
+	}
+	.topFooter [class*="col-"]{
+		margin-bottom: 25px;
+	}
+	.plastore{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.bottomFooter {
+		.socialMedia{
+			justify-content: center;
+		}
+	}
+	
+}
+
+@media only screen and (max-width :960px) {}
+
+@media only screen and (max-width :910px) {}
+
+@media only screen and (max-width: 900px) {}
+
+@media only screen and (max-width: 885px) {}
+
+@media only screen and (max-width: 880px) {}
+
+
+//media for col-
+@media only screen and (max-width: 767px) {
+	.xs-mb-10{
+		margin-bottom: 10px;
+	}
+	.newslatter .customCol-6{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.productcol{
+		.nav-tabs{
+			border-bottom: none;
+			li{
+				//font-size: 16px;
+				width: 100%;
+				flex: 0 0 100%;
+				.nav-link::before{
+					content: "";
+					width: 100%;
+					background: #ededed;
+					height: 3px;
+					position: absolute;
+					bottom: 0;
+					left: 0;
+				}
+			}
+		}
+	} 
+}
+
+@media only screen and (max-width: 736px) {}
+
+@media only screen and (max-width: 667px) {}
+
+@media only screen and (max-width: 568px) {}
+
+@media only screen and (max-width: 545px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 414px) {}
+
+@media only screen and (max-width: 384px) {}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (max-width: 240px) {}
+
+
+
+
+
+
+
+
+
+// @include media-breakpoint-up(xs) { }
+// @include media-breakpoint-up(sm) { }
+//@include media-breakpoint-up(md) {}
+// @include media-breakpoint-up(lg) {  }
+// @include media-breakpoint-up(xl) {  }

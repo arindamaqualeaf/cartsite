@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+html {
+	min-height: 100%;
+	position: relative;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	-webkit-font-smoothing: antialiased;
+	word-wrap: break-word;
+	color: #000;
+	font-family: $mainfont;
+	font-size: 16px;
+	background: #fff;
+	line-height: 1.5;
+	font-weight:400;
+}
+ul{
+	li{
+		list-style: none;
+		a{
+			display: inline-block;			
+		}
+	}
+}
+.relative{
+	position: relative;
+}
+.full{
+	width: 100%;
+	float: left;
+}
+.imgContainer{
+	width: 100%;
+	flex: 0 0 100%;	
+}
+.imgContainer img{
+	width: 100%;
+	display: block;
+}
+.m-b-5{
+	margin-bottom: 5px;
+}
+.p-v-40{
+	padding: 40px 0;
+}
+.customCol-4{
+	//width: 100%;
+	max-width: 25%;
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+}
+.customCol-5{
+	//width: 100%;
+	max-width: 41.66666666666667%;
+	-ms-flex: 0 0 41.66666666666667%;
+	flex: 0 0 41.66666666666667%;
+}
+.customCol-6{
+	max-width: 50%;
+	-moz-flex: 0 0 50%;
+	flex: 0 0 50%;
+}

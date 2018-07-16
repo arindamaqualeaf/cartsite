@@ -1083,6 +1083,19 @@ footer .secondCol .blogDtls {
     font-weight: 400;
     font-size: 14px; }
 
+  footer .secondCol .heading h4 {
+    font-size: 16px; }
+
+  .startSelling h2 {
+    font-size: 20px; }
+  .startSelling p {
+    font-size: 14px;
+    font-weight: 300; }
+  .startSelling .commonBtn1 {
+    width: 138px;
+    font-size: 13px;
+    padding: 7px 10px; }
+
   .bannerSection .banenrTxt h1 {
     font-size: 22px; }
   .bannerSection .banenrTxt h4 {

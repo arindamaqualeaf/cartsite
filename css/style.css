@@ -711,11 +711,17 @@ header {
     color: white;
     padding: 0 15px; }
     .newslatter .customCol-6 .sendIcon {
-      padding-right: 10px; }
+      padding-right: 10px;
+      width: 32px;
+      flex: 0 0 32px;
+      display: flex; }
       .newslatter .customCol-6 .sendIcon i {
         font-size: 22px; }
     .newslatter .customCol-6 .newsTxt {
-      font-size: 14px; }
+      font-size: 14px;
+      display: flex;
+      width: calc(100% - 32px);
+      flex: 0 0 calc(100% - 32px); }
   .newslatter .etemp {
     position: relative;
     margin-bottom: 0; }
@@ -979,7 +985,23 @@ footer .secondCol .blogDtls {
       display: inline-block; }
 
   .bottomFooter .socialMedia {
-    justify-content: center; } }
+    justify-content: center; }
+
+  .productCarousel .col-md-12 {
+    margin-bottom: 20px; }
+  .productCarousel .col-md-12:last-child {
+    margin-bottom: 20px; }
+  .productCarousel .carouselHeader h2 {
+    font-size: 18px; }
+
+  .footerLogo {
+    max-width: 100px;
+    width: 100px;
+    flex: 0 0 100px; }
+    .footerLogo img {
+      width: 100%;
+      flex: 0 0 100%;
+      display: flex; } }
 @media only screen and (max-width: 767px) {
   .xs-mb-10 {
     margin-bottom: 10px; }
@@ -1019,7 +1041,30 @@ footer .secondCol .blogDtls {
 @media (max-width: 767px) {
   .tab-pane {
     display: block !important;
-    opacity: 1; } }
+    opacity: 1; }
+
+  .bannerSection .banenrTxt h1 {
+    font-size: 24px;
+    -moz-text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    -webkit-text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6); }
+  .bannerSection .banenrTxt h4 {
+    font-size: 19px; }
+  .bannerSection .banenrTxt h5 {
+    font-size: 17px; }
+  .bannerSection .banenrTxt .bynow {
+    width: 130px;
+    padding: 6px 10px;
+    border: 2px solid #fff; }
+  .bannerSection .banenrTxt .full {
+    text-align: center; }
+  .bannerSection .owl-next i {
+    font-size: 40px; }
+  .bannerSection .owl-prev i {
+    font-size: 40px; } }
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px; } }
 @media only screen and (max-width: 375px) {
   .middleNav .calcForRight {
     flex: 0 0 calc(100% - 150px);
@@ -1029,5 +1074,43 @@ footer .secondCol .blogDtls {
     flex: 0 0 150px;
     width: 150pxpx;
     padding: 0 5px 0 15px; } }
+@media only screen and (max-width: 320px) {
+  .productCarousel .col-md-12 {
+    margin-bottom: 20px; }
+  .productCarousel .col-md-12:last-child {
+    margin-bottom: 20px; }
+  .productCarousel .productCaroInner .productItem .card-title {
+    font-weight: 400;
+    font-size: 14px; }
+
+  .bannerSection .banenrTxt h1 {
+    font-size: 22px; }
+  .bannerSection .banenrTxt h4 {
+    font-size: 18px; }
+  .bannerSection .banenrTxt h5 {
+    font-size: 16px; }
+  .bannerSection .banenrTxt .bynow {
+    width: 100px;
+    padding: 6px 10px;
+    border: 1px solid #fff; }
+  .bannerSection .banenrTxt .full {
+    text-align: center; }
+  .bannerSection .owl-next i {
+    font-size: 30px; }
+  .bannerSection .owl-prev i {
+    font-size: 30px; }
+
+  .addSection {
+    padding: 15px 0; }
+
+  body {
+    font-size: 12px; }
+
+  .productCarousel .carouselHeader h2 {
+    font-size: 16px; }
+
+  .serviceSection .customCol-4 {
+    max-width: 100%;
+    flex: 0 0 100%; } }
 
 /*# sourceMappingURL=style.css.map */
